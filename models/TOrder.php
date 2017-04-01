@@ -57,19 +57,19 @@ class TOrder extends \yii\db\ActiveRecord
     {
         return [
             'orderId' => 'Order ID',
-            'orderTgl' => 'Order Tgl',
-            'orderJenisBayar' => 'Order Jenis Bayar',
-            'orderAlamat' => 'Order Alamat',
-            'orderKota' => 'Order Kota',
-            'orderKelurahan' => 'Order Kelurahan',
-            'orderKecamatan' => 'Order Kecamatan',
-            'orderDaerah' => 'Order Daerah',
-            'orderKodePos' => 'Order Kode Pos',
-            'orderAlamatNote' => 'Order Alamat Note',
-            'orderGpsKoordinat' => 'Order Gps Koordinat',
-            'orderBiayaTransport' => 'Order Biaya Transport',
-            'orderStatus' => 'Order Status',
-            'orderAlamatTambahanId' => 'Order Alamat Tambahan ID',
+            'orderTgl' => 'Tanggal Order',
+            'orderJenisBayar' => 'Jenis Bayar',
+            'orderAlamat' => 'Alamat',
+            'orderKota' => 'Kota',
+            'orderKelurahan' => 'Kelurahan',
+            'orderKecamatan' => 'Kecamatan',
+            'orderDaerah' => 'Daerah',
+            'orderKodePos' => 'Kode Pos',
+            'orderAlamatNote' => 'Alamat Note',
+            'orderGpsKoordinat' => 'Gps Koordinat',
+            'orderBiayaTransport' => 'Biaya Transport',
+            'orderStatus' => 'Status',
+            'orderAlamatTambahanId' => 'Alamat Tambahan ID',
         ];
     }
 

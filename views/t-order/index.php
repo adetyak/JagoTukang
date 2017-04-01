@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\TOrderSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Torders';
+$this->title = 'Order';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="torder-index">
@@ -15,9 +15,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
-    <p>
-        <?= Html::a('Create Torder', ['create'], ['class' => 'btn btn-success']) ?>
-    </p>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
@@ -42,4 +39,8 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
+
+    <p>
+        <?= Html::a('Buat Order', ['create'], ['class' => 'btn btn-success']) ?>
+    </p>
 </div>
