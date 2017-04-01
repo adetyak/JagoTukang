@@ -5,7 +5,7 @@ return [
     'dsn' => 'mysql:host=127.0.0.1;dbname=jt',
     
     'username' => 'root',
-    'password' => 'C3ntos@2017',
+    'password' => '',
 
 	'enableSchemaCache' => true,
 	// Name of the cache component used to store schema information

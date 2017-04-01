@@ -21,11 +21,9 @@
         "kartik-v/yii2-grid": "@dev",
         "kartik-v/yii2-widget-select2": "@dev",
         "kartik-v/yii2-mpdf": "*",
-        "setasign/fpdf": "1.8",
-        "setasign/fpdi": "1.6.1",
-        "tecnickcom/tcpdf": "6.2.12",
         "kartik-v/yii2-datecontrol": "dev-master",
-        "kartik-v/yii2-widgets": "*"
+        "kartik-v/yii2-widgets": "*",
+        "yiister/yii2-gentelella": "~1.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
